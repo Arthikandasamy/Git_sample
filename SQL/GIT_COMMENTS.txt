@@ -1,0 +1,27 @@
+For update repo use the below command
+**************************************
+
+Git (file://SQA/Git)
+
+
+Git status
+
+git add .
+
+git commit -m "Enter the date of upload in repo , if any particlar reaason like Service update or Golive completed"
+
+
+git push -u origin main
+
+
+==================================================================
+Create new repo use  http://192.168.168.236:3000/TA_IN/<Repo_Name>
+For new repo after u create a repositry use the command in that page
+
+git init
+git checkout -b main
+git add .
+git commit -m "first commit"
+git remote add origin http://192.168.168.236:3000/TA_IN/<Repo_Name>.git
+git push -u origin main
+
