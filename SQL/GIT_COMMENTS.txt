@@ -25,3 +25,5 @@ git commit -m "first commit"
 git remote add origin http://192.168.168.236:3000/TA_IN/<Repo_Name>.git
 git push -u origin main
 
+git push -u origin main
+git push -u origin main
